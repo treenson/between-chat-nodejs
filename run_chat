@@ -1,0 +1,2 @@
+#!/bin/bash
+forever start -a -l ~/Develop/nodejs/between-chat-nodejs/chat.log -n 10000 -o ~/Develop/nodejs/between-chat-nodejs/chat.out --minUptime 2000 --spinSleepTime 2000 server.js
